@@ -26,6 +26,10 @@ Comprehensive PowerShell script for Windows system prep, cleanup, and automated 
 - Some steps require elevated rights (Admin).
 - Customize exclusion list in `Delete-LocalUserProfiles`.
 - Notifications rely on accessible ntfy + HomeSeer setup.
+- 
+- 🔒 Notifications in this script use [ntfy](https://ntfy.sh/) as an example webhook endpoint. 
+It can be self-hosted (as shown here) or swapped for a corporate-approved service such as 
+Teams, Slack, or ServiceNow to align with enterprise security policies.
 
 ---
 
